@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <div>
+        <input type="text" name="email" placeholder=" Email Adress" />
+      </div>
+      <br />
+      <div>
+        <input type="text" name="password" placeholder=" Pasword" />
+      </div>
+      <br />
+      <div>
+        <input type="text" name="firstname" placeholder="First Name" />
+        <input type="text" name="lastname" placeholder="Last Name" />
+      </div>
+      <br />
+      <div>
+        <label for="dateofbirth"> Date of Birth</label>
+        <input type="date" name="dateofbirth" />
+      </div>
+      <br />
+      <div>
+        <input
+          type="number"
+          name="telephonenumber"
+          placeholder="Telephone Number"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="freeplan">Free Plan</label>
+        <input type="radio" id="freeplan" name="chooseplan" />
+        <label for="groupplan">Group of 3 Plan for 199$ </label>
+        <input type="radio" id="groupplan" name="chooseplan" />
+        <label for="proplan">Pro Plan for 99$</label>
+        <input type="radio" id="proplan" name="chooseplan" />
+      </div>
+      <br />
+      <div>
+        <input
+          type="number"
+          name="creditcardnumber"
+          placeholder="Credit Card Number"
+        />
+        <input type="number" name="CVC" placeholder="CVC" />
+        <label for="exdate">Expiration Date</label>
+        <input type="date" name="exdate" />
+        <input type="text" name="billingadress" placeholder="Billing Adress" />
+      </div>
+    </form>
+  </body>
+</html>
